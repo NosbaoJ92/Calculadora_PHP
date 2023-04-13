@@ -1,0 +1,70 @@
+/*----FONTS----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/*----NORMALIZE----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*----MAIN----*/
+
+.container{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.container h5{
+    padding: 15px;
+}
+
+.container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+}
+
+.card select{
+    width: 100%;
+    color: black;
+    margin-top: 5px;
+}
+ input{
+    color: black;
+}
+
+input::placeholder{
+    text-align: center;
+    color: rgb(138, 138, 138);
+}
+
+.echo{
+    color: black;
+}
+
+.submit{
+    width: 100%;
+    margin: 15px 0px;
+    color: white;
+    background-color: brown;
+}
